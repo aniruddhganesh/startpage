@@ -1,0 +1,64 @@
+:root {
+    --text:#dae9ed;
+    --box: #252b38;
+    --listobj: #8e96af;
+    --search: #303335;
+    --bg: #0d1017;
+}
+
+
+body {
+    background-color: var(--bg) ;
+    color: var(--text);
+    font-family: JetBrainsMono NF, sans;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#Search {
+    margin-top: 8em;
+    background-image: url(./assets/images/debian.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.search_box {
+    border: none;
+    outline: none;
+    color: var(--text);
+    background-color: var(--search);
+    height: 40px;
+    width: 40%;
+    text-align: center;
+    font-family: JetBrainsMono NF;
+    font-size: 14pt;
+    border-radius: 5pt;
+    margin-top: 8em;
+}
+
+#bookmarks {
+    display: flex;
+    margin: 5%;
+    padding: 2%;
+}
+
+#bookmarks > .bm_box {
+    border-radius: 10px;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1%;
+    padding-right: 40px; /* Somehow makes it more centered */
+    background-color: var(--box);
+}
+
+
+li, a { 
+    color: var(--listobj);
+    text-align: center;
+    color: var(--listobj);
+    list-style-type: none;
+    padding: 5px;
+}

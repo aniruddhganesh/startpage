@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Press Start</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <div id="Search" style="display:block;">
+                <form id="search_form" action="https://duckduckgo.com/" method="get">
+                    <input class="search_box" type="text" name="q" placeholder="Search The Web">
+                </form>
+            </div>
+
+            <div id="bookmarks">
+                <div class="bm_box">
+                    <ul> Self-Hosted 
+                        <li><a href="http://manilla:3001">Jellyfin</a>
+                        <li><a href="http://manilla:3002">Cloud</a>
+                        <li><a href="http://manilla:3006">Photos</a>
+                        <li><a href="http://manilla:4002/#">Invidious</a>
+                    </ul>
+                </div>
+                <div class="bm_box">
+                    <ul> Social
+                        <li><a href="https://web.whatsapp.com">Whatsapp</a>
+                        <li><a href="https://mail.proton.me/u/0/inbox">Email</a>
+                        <li><a href="https://feddit.rocks">Lemmy</a>
+                    </ul>
+                </div>
+                <div class="bm_box">
+                    <ul> Extras 
+                        <li><a href="https://excalidraw.com">Excalidraw</a>
+                        <li><a href="https://packages.debian.org/index">Package Search</a>
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
