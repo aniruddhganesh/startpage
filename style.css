@@ -14,15 +14,16 @@ body {
     padding: 20px;
     overflow: hidden;
     text-align: center;
+    /* Image */
+    background-image: url(./assets/images/debian.png);
+    height: 40em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 120px;
 }
 
 #Search {
     margin-top: 8em;
-    background-image: url(./assets/images/debian.png);
-    height: 250px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
 }
 .search_box {
     border: none;
